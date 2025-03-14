@@ -18,7 +18,6 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: '11'
-          cache: gradle
       - name: create dir
         run: mkdir -p app/build/outputs/apk/debug/
       - name: Set execution flag for gradlew
